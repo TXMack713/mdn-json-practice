@@ -10,8 +10,6 @@ async function populate() {
   populateHeroes(superHeroes);
 }
 
-populate();
-
 function populateHeader(obj) {
   const header = document.querySelector('header');
   const myH1 = document.createElement('h1');
@@ -56,3 +54,5 @@ function populateHeroes(obj) {
     section.appendChild(myArticle);
   }
 }
+
+populate();
