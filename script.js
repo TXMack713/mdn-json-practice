@@ -55,4 +55,4 @@ function populateHeroes(obj) {
 
     section.appendChild(myArticle);
   }
-}
+  1 file modified}
